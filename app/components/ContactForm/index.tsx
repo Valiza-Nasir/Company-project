@@ -8,6 +8,12 @@ type FieldType = {
   username?: string;
   password?: string;
   remember?: string;
+  companyName?: string;
+  yourName?: string;
+  phoneNumber?: string;
+  emailAddress?: string;
+  projectDetails?: string;
+  privacyPolicy?: boolean;
 };
 
 function ContactForm() {
@@ -78,7 +84,7 @@ function ContactForm() {
                 className="flex-1 mb-0"
                 rules={[{ required: true, type: 'email', message: "Please enter a valid email." }]}
               >
-                <Input placeholder="Enter Email Address" className="h-14" />
+              name="projectDetails"
               </Form.Item>
             </div>
 
