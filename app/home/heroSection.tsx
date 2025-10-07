@@ -1,7 +1,7 @@
 import React from "react";
 import CommonButton from "../components/common/button";
 import Image from "next/image";
-import contactForm from "../../public/assests/images/contact-form.jpg";
+import Dev from "../../public/assests/images/dev.jpg";
 
 function HeroSection() {
   return (
@@ -27,7 +27,7 @@ function HeroSection() {
            
           </div>
         </div>
-        <Image src={contactForm} alt="hero-image" width={900} height={800} className="rounded-3xl" />
+        <Image src={Dev} alt="hero-image" width={900} height={800} className="rounded-3xl" />
        
       </div>
     </div>

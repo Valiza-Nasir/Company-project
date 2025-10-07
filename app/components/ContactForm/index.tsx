@@ -90,7 +90,7 @@ function ContactForm() {
 
             {/* Row 3: Project Detail (Textarea) */}
             <Form.Item<FieldType>
-              name="projectDetails  "
+              name="projectDetails"
               label={<span className="font-semiBold text-font_16 text-textColor">Project Detail</span>}
               // Added margin to separate it visually as in the image
               className="mt-4" 

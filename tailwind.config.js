@@ -15,6 +15,7 @@ content: [
         bgYellow:"#FFF856",
         bgGrayColor:"#FBFBFB",
         buttonBg:"#F3F3F3",
+        bgLightGray:"#F8F8F8",
       },
       fontWeight:{
         'extraBold': '800',
