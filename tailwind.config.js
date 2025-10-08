@@ -27,6 +27,7 @@ content: [
        'font_46':"46px",
        'font_16':"16px",
        'font_18':"18px",
+       'font_22':"22px",
        'font_64':"64px",
        'font_28':"28px",
        'font_24':'24px',

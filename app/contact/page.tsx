@@ -5,6 +5,8 @@ import HeroImage from "../components/common/heroImage";
 import CommonParagraph from "../components/common/paragraph";
 import Title from "../components/common/title";
 import type { FormProps } from "antd";
+import logo from "../../public/assests/images/logoss.png";
+import Image from "next/image";
 import { Form, Input, Button, Checkbox } from "antd";
 type FieldType = {
   username?: string;
@@ -150,20 +152,20 @@ export default function Contact() {
 
         <div className="grid grid-cols-3 gap-16 my-24">
         <div className="flex flex-col">
-          <span>logo</span>
+          <Image src={logo} alt="logo" width={150} height={150} className="mb-4" />
           <h3 className="my-2 text-textColor font-regular text-font_24">Office</h3>
           <span className="text-textColor font-regular text-font_18">info@courtney.lk</span>
           <span className="text-textColor font-regular text-font_18">+94 011 283 744</span>
           </div>   
           <div className="flex flex-col">
-          <span>logo</span>
+          <Image src={logo} alt="logo" width={150} height={150} className="mb-4" />
           <h3 className=" text-textColor font-regular text-font_24">Vishwa Liyanapathirana</h3>
           <p className="text-textColor text-font_16 font-semiBold my-2">Human Resources</p>
           <span className="text-textColor font-regular text-font_18">vishwa@courtney.lk</span>
           <span className="text-textColor font-regular text-font_18">+94 713 249 222</span>
           </div>   
           <div className="flex flex-col">
-          <span>logo</span>
+          <Image src={logo} alt="logo" width={150} height={150} className="mb-4" />
           <h3 className=" text-textColor font-regular text-font_24">Kasun Perera</h3>
           <p className="text-textColor text-font_16 font-semiBold my-2">Funder/CEO</p>
           <span className="text-textColor font-regular text-font_18">kasun@courtney.lk</span>

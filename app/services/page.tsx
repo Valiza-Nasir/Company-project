@@ -12,7 +12,10 @@ export default function Services() {
         description="We specialize in helping you build a team of expert developers."
       />
       <div className="max-w-[1600px] mx-auto">
-        <Title title="Services" />
+        <div className="w-[50%] my-4">
+        <Title title="Hire Permanent and Remote Developers" />
+
+        </div>
         <div className="w-[30%]">
         <CommonParagraph paragraph="From full-time remote engineering teams to hourly contractors, work with remote devs as needed" />
         </div>

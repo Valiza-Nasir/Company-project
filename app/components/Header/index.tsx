@@ -1,3 +1,5 @@
+import Image from "next/image";
+import logo from "../../../public/assests/images/logoss.png";
 function Header() {
   return (
     <div className="w-full">
@@ -8,15 +10,10 @@ function Header() {
           {/* Left Side - Logo and Company Name */}
           <div className="flex items-center space-x-4">
             {/* Orange Hexagonal Logo */}
-            <div className="relative w-12 h-12">
-            logo
+            <div className="">
+            <Image src={logo} alt="logo" width={150} height={150} />
             </div>
             
-            {/* Company Name */}
-            <div className="flex flex-col">
-              <span className="text-orange-500 font-bold text-xl uppercase tracking-wide">Company Name</span>
-              {/* <span className="text-orange-500 font-bold text-xl uppercase tracking-wide">LANKA</span> */}
-            </div>
           </div>
           
           {/* Center - Navigation Links */}

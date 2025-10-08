@@ -35,7 +35,7 @@ const cards = [
 
 function Card() {
   return (
-    <div className="grid grid-cols-2 gap-16">
+    <div className="grid grid-cols-2 gap-16 my-16">
         {cards.map((card) => (
             <div key={card.id} className="flex  gap-6 p-4">
                 <Image src={card.image} alt={card.title} className="w-24 h-24 bg-bgYellow p-2 rounded-lg" />

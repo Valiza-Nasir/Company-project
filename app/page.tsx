@@ -16,16 +16,26 @@ export default function Home() {
     </div>
           <Section />
           <div className="max-w-[1600px] mx-auto">
-            <p>Expertise</p>
+            <p className="text-font_22 font-semiBold text-textColor">Expertise</p>
+            <div className="w-[50%]">
             <Title title="Hire Permanent and Remote Developers" />
+
+
+            </div>
+            <div className="w-[30%]">
             <CommonParagraph paragraph="From full-time remote engineering teams to hourly contractors, work with remote devs as needed" />
+
+            </div>
+
             <Card2 />
-            <SpecializedStaff />
+           
+          </div>
+          
+          <SpecializedStaff />
 
             
-            <Carousel />
-            <ContactForm />
-          </div>
+<Carousel />
+<ContactForm />
 
           </div>
 

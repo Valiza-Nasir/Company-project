@@ -1,3 +1,5 @@
+import logo from "../../../public/assests/images/logoss.png";
+import Image from "next/image";
 function Footer() {
   return (
     <div className="bg-white py-12">
@@ -9,15 +11,10 @@ function Footer() {
             {/* Logo and Company Name */}
             <div className="flex items-center space-x-4 mb-6">
               {/* Orange Hexagonal Logo */}
-              <div className="relative w-12 h-12">
-              logo
+              <div className="">
+              <Image src={logo} alt="logo" width={150} height={150} />
               </div>
               
-              {/* Company Name */}
-              <div className="flex flex-col">
-                <span className="text-orange-500 font-bold text-xl uppercase tracking-wide">Company Name</span>
-                {/* <span className="text-orange-500 font-bold text-xl uppercase tracking-wide">LANKA</span> */}
-              </div>
             </div>
             
             {/* Tagline */}

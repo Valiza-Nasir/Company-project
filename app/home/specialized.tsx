@@ -155,9 +155,13 @@ const cards = [
 
 function SpecializedStaff() {
   return (
-    <div>
-    <p>Specialized</p>
-    <h1>Specialized Staff We Provide</h1>
+    <div className="bg-bgLightGray p-16 my-16">
+        <div className='w-[1600px] mx-auto'>
+    <p className='text-font_22 font-semiBold text-textColor'>Specialized</p>
+    <div className='w-[40%] mb-8'>
+    <h1 className='text-font_46 font-semiBold text-textColor'>Specialized Staff We Provide</h1>
+
+    </div>
     <div className="grid grid-cols-4 gap-8">
         {cards.map((card) => (
             <div key={card.id} className="flex  gap-6 p-2 bg-white items-center rounded-lg shadow-md border-l-8 border-l-bgYellow">
@@ -166,6 +170,7 @@ function SpecializedStaff() {
             </div>
         ))}
     </div>
+</div>
 
 
     </div>

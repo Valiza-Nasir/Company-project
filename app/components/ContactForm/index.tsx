@@ -138,9 +138,14 @@ function ContactForm() {
          
         </div>
       </div>
-      <div >
-      <Image src={image} alt="hero-image"className="rounded-3xl h-[800px] w-[800px]" />
-
+      <div className="w-[800px] h-[800px]">
+        <Image 
+          src={image} 
+          alt="hero-image" 
+          width={800}
+          height={800}
+          className="rounded-3xl w-full h-full object-cover" 
+        />
       </div>
      
     </div>

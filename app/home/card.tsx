@@ -32,7 +32,7 @@ const cards = [
 
 export function Card() {
   return (
-    <div className="grid grid-cols-3 gap-16">
+    <div className="grid grid-cols-3 gap-16 my-12">
         {cards.map((card) => (
             <div key={card.id} className="flex  gap-6 p-4">
                 <Image src={card.image} alt={card.title} className="w-24 h-24 bg-bgYellow p-2 rounded-lg" />
@@ -83,7 +83,7 @@ export const cards2 = [
 
 export function Card2() {
     return (
-        <div className="grid grid-cols-4 ">
+        <div className="grid grid-cols-4  my-16">
             {cards2.map((card) => (
                 <div key={card.id} className="flex  gap-6 p-4">
                     <div className="flex flex-col gap-2">
