@@ -9,6 +9,12 @@ import logo from "../../public/assests/images/logoss.png";
 import Image from "next/image";
 import { Form, Input, Button, Checkbox } from "antd";
 type FieldType = {
+  companyName?: string;
+  yourName?: string;
+  phoneNumber?: string;
+  emailAddress?: string;
+  projectDetails?: string;
+  privacyPolicy?: boolean;
   username?: string;
   password?: string;
   remember?: string;
@@ -100,7 +106,7 @@ export default function Contact() {
 
             {/* Row 3: Project Detail (Textarea) */}
             <Form.Item<FieldType>
-              name="projectDetails  "
+              name="projectDetails"
               label={<span className="font-semiBold text-font_16 text-textColor">Project Detail</span>}
               // Added margin to separate it visually as in the image
               className="mt-4" 
